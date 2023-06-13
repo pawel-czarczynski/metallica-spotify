@@ -11,7 +11,7 @@ export default function Home({albums}) {
   return (
     <>
       <Head>
-        <title>Metallica by Pawel CZarczynski</title>
+        <title>Metallica by Pawel Czarczynski</title>
         <meta name="description" content="Created by Pawel Czarczynski" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
