@@ -139,7 +139,7 @@ export default function songID({details, lyrics}) {
 export async function getServerSideProps(context){
     
     const songID =  context.params.songID
-    const response = await fetch(`http://127.0.0.1:8000/metallica/song_l/${songID}`)
+    const response = await fetch(`https://metallica-spotify-api.onrender.com/metallica/song_l/${songID}`)
     let data = await response.json()
 
     return {

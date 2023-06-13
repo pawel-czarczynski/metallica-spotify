@@ -10,7 +10,7 @@ function Center({ currentAlbum }) {
   useEffect(() => {
     const fetchSongs = async () => {
       try {
-        const response_song = await fetch(`http://127.0.0.1:8000/metallica/songs/${currentAlbum}`);
+        const response_song = await fetch(`https://metallica-spotify-api.onrender.com/metallica/songs/${currentAlbum}`);
         const data_song = await response_song.json();
         setSongs(data_song);
       } catch (error) {
